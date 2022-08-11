@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>LOGO</h1>
+
+    
+        <ul>
+            <li>Home</li>
+            <li>Contatos</li>
+            <li>Sobre</li>
+            <li><a href="http://localhost:8080/teste6/BancoJar">Todos Funcionarios</a></li>
+        </ul>
+   
+</header>
+<div class="body">
+<main>
+    
+        <h1>Cadastro de Funcionarios</h1>
+        <form action="/teste6/CadastroJar" method="post">
+    
+            <div class="input">
+                <p>Nome do Funcionario: </p>
+                <input type="text" name="nome">
+                
+            </div>
+            <div class="input">
+                <p>Email: </p>
+                <input type="text" name="email">
+            </div>
+            <div class="input">
+                <p>Idade: </p>
+                <input type="number" name="idade" id="">
+            </div>
+            <div class="input">
+                <p>Cargo/Função: </p>
+                <input type="text" name="cargo">
+            </div>
+            
+            <center><button type="submit">Cadastrar</button></center>
+        </form>
+</main>
+</div>
+</body>
+</html>
